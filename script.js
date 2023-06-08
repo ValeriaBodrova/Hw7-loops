@@ -10,3 +10,18 @@ for (let i = 10; i <= 20; i++) {
 }
 
 console.log(output);
+
+//task2
+
+for (let i = 10; i <= 20; i++) {
+    let square = i * i;
+    console.log(square);
+  }
+
+  //task3
+
+  for (let i = 1; i <= 9; i++) {
+    let multiply = 7 * i;
+    let result = `7 * ${i} = ${multiply}`
+    console.log(result);
+  }
