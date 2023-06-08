@@ -1,6 +1,12 @@
 //task1
+let output = "";
 
-let array = ["","","","","","","","","",""]
-for (let i = 10; i < 20; i++) {
-  console.log(array[i]);
+for (let i = 10; i <= 20; i++) {
+  output += i;
+  
+  if (i !== 20) {
+    output += ",";
+  }
 }
+
+console.log(output);
