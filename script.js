@@ -35,3 +35,25 @@ for (let i = 1; i <= 15; i++) {
 }
 
 console.log(sum);
+
+//task5
+
+
+let product = 1;
+
+for (let i = 15; i <= 35; i++){
+    product *= i;
+}
+console.log(product);
+
+//task6
+
+let sum61 = 0;
+let count = 0;
+
+for (let i = 1; i <= 500; i++) {
+   sum61 += i;
+   count++;
+  }
+let average = sum61 / count;
+  console.log(average);
