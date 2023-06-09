@@ -75,3 +75,14 @@ for (let i = 100; i <= 200; i++) {
    console.log(i);
   }
   
+//task9
+
+let number = parseInt(prompt("Enter a natural number"));
+
+
+for (let i = 1; i <= number; i++){
+if (number % i === 0){
+   console.log(i);
+}
+
+}
