@@ -98,3 +98,15 @@ for (let i = 1; i <= number; i++){
         console.log(sum101);
      }
 }
+
+//task11
+
+
+let sum111 = 0;
+
+for (let i = 1; i <= number; i++){
+    if (number % i === 0 && i % 2 === 0){
+        sum111 += i;
+        console.log(sum111);
+     }
+}
