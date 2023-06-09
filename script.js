@@ -25,3 +25,13 @@ for (let i = 10; i <= 20; i++) {
     let result = `7 * ${i} = ${multiply}`
     console.log(result);
   }
+
+  //task4
+
+ let sum = 0;
+
+for (let i = 1; i <= 15; i++) {
+  sum += i;
+}
+
+console.log(sum);
