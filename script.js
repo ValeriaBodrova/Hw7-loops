@@ -110,3 +110,15 @@ for (let i = 1; i <= number; i++){
         console.log(sum111);
      }
 }
+
+//task12
+
+
+  for (let a = 1; a <= 10; a++) {
+    for (let i = 1; i <= 9; i++) {
+        let multiply = a * i;
+        let result = `${a} * ${i} = ${multiply}`
+        console.log(result);
+      }
+  }
+
