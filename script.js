@@ -86,3 +86,15 @@ if (number % i === 0){
 }
 
 }
+
+//task10
+
+let count101 = 0;
+let sum101 = 0;
+
+for (let i = 1; i <= number; i++){
+    if (number % i === 0 && i % 2 === 0){
+        sum101 += count101;
+        console.log(sum101);
+     }
+}
