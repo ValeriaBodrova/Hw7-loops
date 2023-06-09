@@ -57,3 +57,21 @@ for (let i = 1; i <= 500; i++) {
   }
 let average = sum61 / count;
   console.log(average);
+
+//task7
+  let sum71 = 0;
+
+  for (let i = 30; i <= 80; i++) {
+    if (i % 2 === 0) {
+      sum71 += i;
+    }
+  }
+  
+  console.log(sum);
+
+//task8
+
+for (let i = 100; i <= 200; i++) {
+   console.log(i);
+  }
+  
